@@ -37,7 +37,7 @@ namespace GroupDocs.Search.MVC.Products.Search.Controllers
         /// </summary>
         /// <returns>Search configuration</returns>
         [HttpGet]
-        [Route("search/loadConfig")]
+        [Route("loadConfig")]
         public SearchConfiguration LoadConfig()
         {
             SearchService.InitIndex(globalConfiguration);
@@ -51,7 +51,7 @@ namespace GroupDocs.Search.MVC.Products.Search.Controllers
         /// <param name="fileTreeRequest">Posted data with path</param>
         /// <returns>List of files and directories</returns>
         [HttpPost]
-        [Route("search/loadFileTree")]
+        [Route("loadFileTree")]
         public HttpResponseMessage LoadFileTree(PostedDataEntity fileTreeRequest)
         {
             try
@@ -137,7 +137,7 @@ namespace GroupDocs.Search.MVC.Products.Search.Controllers
         /// </summary>
         /// <returns>Uploaded document object</returns>
         [HttpPost]
-        [Route("search/uploadDocument")]
+        [Route("uploadDocument")]
         public HttpResponseMessage UploadDocument()
         {
             try
@@ -210,7 +210,7 @@ namespace GroupDocs.Search.MVC.Products.Search.Controllers
         /// <param name="postedData">Files array</param>
         /// <returns>HttpResponseMessage</returns>
         [HttpPost]
-        [Route("search/addFilesToIndex")]
+        [Route("addFilesToIndex")]
         public HttpResponseMessage AddFilesToIndex(PostedDataEntity[] postedData)
         {
             try
@@ -230,7 +230,7 @@ namespace GroupDocs.Search.MVC.Products.Search.Controllers
         /// <param name="postedData">Search query</param>
         /// <returns>Search results</returns>
         [HttpPost]
-        [Route("search/search")]
+        [Route("search")]
         public HttpResponseMessage Search(SearchPostedData postedData)
         {
             try
@@ -250,7 +250,7 @@ namespace GroupDocs.Search.MVC.Products.Search.Controllers
         /// <param name="postedData">File info</param>
         /// <returns>HttpResponseMessage</returns>
         [HttpPost]
-        [Route("search/removeFromIndex")]
+        [Route("removeFromIndex")]
         public HttpResponseMessage RemoveFromIndex(PostedDataEntity postedData)
         {
             try
@@ -271,7 +271,7 @@ namespace GroupDocs.Search.MVC.Products.Search.Controllers
         /// <param name="postedData">Files array</param>
         /// <returns>Indexed files list with current status</returns>
         [HttpPost]
-        [Route("search/getFileStatus")]
+        [Route("getFileStatus")]
         public HttpResponseMessage GetFileStatus(PostedDataEntity[] postedData)
         {
             var indexingFilesList = new List<IndexedFileDescriptionEntity>();
