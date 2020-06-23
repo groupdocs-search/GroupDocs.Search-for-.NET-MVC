@@ -44,7 +44,7 @@ search:
   # Absolute path to files directory
   filesDirectory: 'DocumentSamples/Search'
   # Index directory path
-  # Absolute path to index files directory
+  # Absolute path to index directory
   indexDirectory: 'DocumentSamples/Search/Index'
   # Indexed files directory path
   # Absolute path to indexed files directory
