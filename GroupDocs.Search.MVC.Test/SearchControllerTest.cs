@@ -32,7 +32,7 @@ namespace GroupDocs.Search.MVC.Test
             {
                 var request = new SerialisableRequest
                 {
-                    Method = "GET",
+                    Method = "POST",
                     RequestUri = "/search",
                     Content = null
                 };
