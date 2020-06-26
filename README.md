@@ -1,8 +1,7 @@
-![Alt text](https://groupdocs-search.github.io/resources/image/banner.png "GroupDocs.Search")
 # GroupDocs.Search for .NET MVC Example
 
-[![Build status](https://ci.appveyor.com/api/projects/status/t40gr8bgr1msty7c/branch/master?svg=true)](https://ci.appveyor.com/project/bobkovalex/groupdocs-search-for-net-mvc/branch/master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/91132beed1914c699aea25281659efbc)](https://www.codacy.com/gh/groupdocs-search/GroupDocs.Search-for-.NET-MVC?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=groupdocs-search/GroupDocs.Search-for-.NET-MVC&amp;utm_campaign=Badge_Grade)
+[![Build status](https://ci.appveyor.com/api/projects/status/rkqhjcbfib9788w8/branch/master?svg=true)](https://ci.appveyor.com/project/bobkovalex/groupdocs-search-for-net-mvc/branch/master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c037d13b9d4849efa2befe9f14c50b95)](https://app.codacy.com/gh/groupdocs-search/GroupDocs.Search-for-.NET-MVC?utm_source=github.com&utm_medium=referral&utm_content=groupdocs-search/GroupDocs.Search-for-.NET-MVC&utm_campaign=Badge_Grade_Dashboard)
 [![GitHub license](https://img.shields.io/github/license/groupdocs-search/GroupDocs.Search-for-.NET-MVC.svg)](https://github.com/groupdocs-search/GroupDocs.Search-for-.NET-MVC/blob/master/LICENSE)
 
 ## System Requirements
@@ -49,6 +48,10 @@ Comming Soon
 - Phrase search
 - Search by file-name
 - Highlighting search results in the text of the entire document or in text segments
+- Responsive design
+- Cross-browser support (Safari, Chrome, Opera, Firefox)
+- Clean, modern and intuitive design
+- Mobile support (open application on any mobile device)
 
 ## How to run
 
