@@ -1,23 +1,33 @@
-# Compiled class file
-*.class
+# Tool Runtime Dir
+packages/
+node_modules/
 
-# Log file
-*.log
+# Visual Studio
+.vs/
 
-# BlueJ files
-*.ctxt
+# User-specific files
+*.user
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+# Build results
+[Bb]in/
+[Oo]bj/
 *.zip
-*.tar.gz
-*.rar
+package-lock.json
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Resources
+src/Resources/*
+!src/Resources/.gitkeep
+
+# Licenses
+src/Licenses
+!src/Licenses/.gitkeep
+
+# Document samples
+src/DocumentSamples
+!src/DocumentSamples/.gitkeep
+
+# Git
+!.gitkeep
+
+# Finder in OSX
+.DS_Store
